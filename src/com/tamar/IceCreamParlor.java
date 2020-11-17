@@ -28,6 +28,5 @@ public class IceCreamParlor {
 //        int[] res = icecreamParlor(9, new int[]{1,3, 4, 6, 7, 9});
 //        int[] res1 = icecreamParlor(4, new int[]{1,4,5,3,2});
         int[] res2 = icecreamParlor(8, new int[]{1, 3, 4, 4, 6, 8});
-        System.out.println("hii");
     }
 }
