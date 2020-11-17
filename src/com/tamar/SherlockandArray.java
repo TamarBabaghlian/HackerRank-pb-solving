@@ -8,14 +8,14 @@ public class SherlockandArray {
     static String balancedSums(List<Integer> arr) {
         int sum = 0;
         int left = 0;
-        for(int su : arr){
-            sum += su;
+        for(int e : arr){
+            sum += e;
         }
-        for(int fu : arr){
-            if(2*left == sum - fu){
+        for(int e : arr){
+            if(2*left == sum - e){
                 return "YES";
             }else{
-                left += fu;
+                left += e;
             }
         }
         return "NO";
