@@ -21,6 +21,9 @@ public class AlmostSorted {
             if (arr[i] != arrSorted[i]) {
                 tempList.add(i);
             }
+            if (tempList.size() > 2 ) {
+               break;
+            }
         }
 
         if (tempList.size()==2) {
