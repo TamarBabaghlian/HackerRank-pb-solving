@@ -85,13 +85,6 @@ public class CountingSortTheFull {
             }
         }
 
-//        for (int i=0; i<size; i++) {
-//            List<String> list = map.get(i);
-//            for (String s: list) {
-//                System.out.print(s + " ");
-//            }
-//        }
-
         StringBuffer sb = new StringBuffer();
         for (int i = 0; i < size; i++) {
             List<String> values = map.get(i);
