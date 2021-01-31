@@ -14,12 +14,13 @@ public class SherlockandArray {
         for(int e : arr){
             if(2*left == sum - e){
                 return "YES";
-            }else{
+            } else{
                 left += e;
             }
         }
         return "NO";
     }
+
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
         list.add(1);
